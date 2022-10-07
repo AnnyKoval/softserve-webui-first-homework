@@ -45,6 +45,9 @@ ul {
   width: 70px;
   text-align: center;
 }
+.second-header-item {
+  padding-top: 10px;
+}
 
 .third-header-item {
   border: 1px solid #ececec;
