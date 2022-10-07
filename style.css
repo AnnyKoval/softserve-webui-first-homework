@@ -15,6 +15,12 @@ ul {
   display: inline-block;
   margin-left: 80px;
 }
+@media screen and (max-width: 900px) {
+  .header-li {
+    margin-left: 0px;
+    padding: 10px;
+  }
+}
 
 .header-items {
   display: flex;
@@ -26,6 +32,11 @@ ul {
   margin-right: 50px;
   margin-top: 40px;
 }
+@media screen and (max-width: 900px) {
+  .header-items {
+    margin: 10px;
+  }
+}
 .first-header-item {
   border: 1px solid #ececec;
   background-color: #e0e0e0;
@@ -34,6 +45,7 @@ ul {
   width: 70px;
   text-align: center;
 }
+
 .third-header-item {
   border: 1px solid #ececec;
   border-radius: 50px;
@@ -54,6 +66,19 @@ ul {
   background-color: #ececec;
   cursor: pointer;
 }
+@media screen and (max-width: 900px) {
+  .first-header-item,
+  .second-header-item,
+  .third-header-item,
+  .fourth-header-item,
+  .fifth-header-item {
+    margin-right: 5px;
+    padding: 3px;
+    font-size: 10px;
+    border-radius: 10px;
+  }
+}
+
 .input-output {
   display: flex;
   flex-direction: row;
@@ -67,7 +92,7 @@ ul {
   justify-content: space-evenly;
 }
 .description {
-  width: 560px;
+  width: 50%;
   margin-left: 20px;
   margin-right: 20px;
   line-height: 3px;
@@ -87,8 +112,13 @@ ul {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid grey;
-  margin-left: 120px;
+  margin-left: 70px;
   margin-bottom: 10px;
+}
+@media screen and (max-width: 900px) {
+  .tweakit-button {
+    margin-left: 20px;
+  }
 }
 hr {
   display: block;
@@ -96,9 +126,20 @@ hr {
   margin-left: 110px;
   margin-right: 90px;
 }
+@media screen and (max-width: 900px) {
+  hr {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 .report-block {
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 900px) {
+  .report-block {
+    max-width: 50%;
+  }
 }
 .report-button {
   padding: 10px;
@@ -110,4 +151,10 @@ hr {
 .comments {
   font-size: 10px;
   margin-top: 30px;
+}
+@media screen and (max-width: 900px) {
+  .video {
+    width: 180px;
+    height: 180px;
+  }
 }
