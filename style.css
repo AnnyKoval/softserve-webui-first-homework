@@ -120,6 +120,11 @@ ul {
     margin-left: 20px;
   }
 }
+@media screen and (max-width: 1200px) {
+  .tweakit-button {
+    margin-left: 75px;
+  }
+}
 hr {
   display: block;
   margin: 0 auto;
