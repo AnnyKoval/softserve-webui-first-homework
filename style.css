@@ -163,3 +163,12 @@ hr {
     height: 180px;
   }
 }
+.footer {
+  text-align: center;
+  margin: 20px;
+  font-size: 10px;
+}
+.author-link,
+.portfolio-link {
+  color: black;
+}
