@@ -115,14 +115,10 @@ ul {
   margin-left: 70px;
   margin-bottom: 10px;
 }
-@media screen and (max-width: 900px) {
+
+@media screen and (max-width: 770px) {
   .tweakit-button {
-    margin-left: 20px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  .tweakit-button {
-    margin-left: 75px;
+    margin-left: 67px;
   }
 }
 hr {
