@@ -119,11 +119,6 @@ ul {
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 770px) {
-  .tweakit-button {
-    margin-left: 67px;
-  }
-}
 hr {
   display: block;
   margin: 0 auto;
